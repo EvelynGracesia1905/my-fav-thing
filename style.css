@@ -1,0 +1,152 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+body {
+    margin: 50px;
+    padding: 0px;
+    font-family: 'open sans' ,sans-serif;
+}
+
+.weapper {
+    width: 110px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float:left;
+    font-family: courier;
+    color: #BE5985;
+}
+
+.menu {
+    float:right;
+    margin-left: auto;
+}
+
+nav {
+    width: 100%;
+    margin:auto;
+    display: flex;
+    line-height: 35px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #FFEDFA;
+    z-index: 10;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BE5985;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "comic sans-ms" ;
+    color: #604652;
+}
+
+h2 {
+    font-family: "comic sans ms";
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+#bernyanyi p {
+    text-align: left; 
+    margin-left: 20px; 
+    margin-bottom: 20px; 
+}
+
+#bernyanyi ul {
+    list-style-position: inside; 
+    text-align: left; 
+    margin-left: 20px; 
+}
+
+#bernyanyi li {
+    margin-bottom: 10px; 
+}
+
+.tengah {
+    text-align: center;
+    width:100%
+}
+
+.bernyanyi_paduan_suara {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.padus-countainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.padus {
+    width : 60%;
+    margin: 0 auto;
+}
+
+.padus img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
