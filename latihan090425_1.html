@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .icon-box {
+            border: 1px solid rgb(221, 221, 221);
+            display: inline-block;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .icon-box i {
+            color: #8585fd;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .icon-box:hover {
+            border:1px solid rgba(204, 96, 204, 0.445);
+            animation: bounce 2s infinite;
+        }
+
+        /*Membuat animasi web dapat bergerak*/
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        .icon-box:hover i {
+            color: pink;
+        }
+
+        .icon-box i.rotate {
+            animation: rotate 2s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% {transform: rotate(0deg);}
+            100% { transform: rotate(360deg);}
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Latihan Penggunaan Font Awesome</h1>
+    <P>Berikut adalah beberapa contoh penggunaan ikon Font Awesome:</P>
+
+     <div class="icon-box">    
+        <i class="fas fa-user rotate" ></i>
+        <P>Profil</P>
+    </div>  
+
+    <div class="icon-box">
+        <i class="fas fa-envelope rotate"></i>
+        <P>Email</P>
+    </div>
+
+    <div class="icon-box">
+        <i class="fas fa-phone rotate"></i>
+        <p>Telepon</p>
+    </div>
+
+    <div class="icon-box">
+        <i class="fab fa-github rotate"></i>
+        <P>Githup</P>
+    </div>
+
+    <div class="icon-box">
+        <i class="fab fa-linkedin rotate"></i>
+        <p>Linkedin</p>
+    </div>
+
+    <div class="icon-box">
+        <i class="fa-solid fa-location-dot rotate"></i>
+        <P>Lokasi</P>
+    </div>
+
+    <div class="icon-box">
+        <i class="fab fa-instagram rotate"></i>
+        <P>Instagram</P>
+    </div>
+
+    <div class="icon-box">
+        <i class="fa-solid fa-blog rotate"></i>
+        <P>Web Pribadi</P>
+    </div>
+    
+
+
+</body>
+</html>
